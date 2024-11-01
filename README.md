@@ -12,7 +12,7 @@ VITE_SWOP_API_KEY="CREATE YOUR API TOKEN AT SWOP WEBSITE"
 ```sh
 - Run docker-compose build
 - Run docker-compose up
-- Access in your browser: http://localhost:3110/
+- Access using your browser: http://localhost:3110/
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
