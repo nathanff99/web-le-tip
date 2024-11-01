@@ -1,0 +1,16 @@
+services:
+  web-le-tip:
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: web-le-tip:latest
+    ports:
+      - "3110:3110"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - NODE_ENV=development
